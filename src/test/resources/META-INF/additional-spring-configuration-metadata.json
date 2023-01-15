@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "parsers.freeProxyListConfig.enabledAnonymities",
+      "type": "java.lang.String",
+      "description": "Set of allowed anonymity level."
+    },
+    {
+      "name": "parsers.freeProxyListConfig.url",
+      "type": "java.lang.String",
+      "description": "freeProxyList site url."
+    },
+    {
+      "name": "parsers.freeProxyListConfig.tableClass",
+      "type": "java.lang.String",
+      "description": "HTML class for a target table."
+    }
+  ] }
