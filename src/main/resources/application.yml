@@ -5,3 +5,17 @@ parsers:
     enabledAnonymities:
       - elite proxy
       - anonymous
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - prometheus
+
+schedulers:
+  proxy-cache:
+    internal-state:
+      delay: 15000
+      initial-delay: 2000

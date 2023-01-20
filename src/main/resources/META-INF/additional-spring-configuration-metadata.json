@@ -14,5 +14,15 @@
       "name": "parsers.freeProxyListConfig.tableClass",
       "type": "java.lang.String",
       "description": "HTML class for a target table."
+    },
+    {
+      "name": "schedulers.proxy-cache.internal-state.initial-delay",
+      "type": "java.lang.String",
+      "description": "Initial delay for update cache state metrics."
+    },
+    {
+      "name": "schedulers.proxy-cache.internal-state.delay",
+      "type": "java.lang.String",
+      "description": "Delay for update cache state metrics job."
     }
   ] }

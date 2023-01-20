@@ -5,3 +5,9 @@ parsers:
     enabledAnonymities:
       - elite proxy
       - anonymous
+
+schedulers:
+  proxy-cache:
+    internal-state:
+      delay: 15000
+      initial-delay: 2000000000000000
